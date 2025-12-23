@@ -1,3 +1,24 @@
+# Tortrong Yang — Frontend Developer Portfolio
+
+This is my personal portfolio website built with **React** and **Chakra UI** to showcase my projects, skills, and experience as an entry-level frontend developer and software engineer.
+
+## 🛠 Tech Stack
+- **Frontend:** React, JavaScript (ES6+), HTML5, CSS3  
+- **UI & Styling:** Chakra UI, Responsive Design  
+- **Forms & Validation:** Formik, Yup  
+- **Animations:** Framer Motion  
+- **Tools:** Git, GitHub, VS Code  
+
+## ✨ Features
+- Responsive, mobile-friendly layout  
+- Animated landing section with smooth transitions  
+- Projects section highlighting real coursework and applications  
+- Contact form with validation and user feedback  
+- Clean, reusable component architecture  
+
+## 📂 Project Structure
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
