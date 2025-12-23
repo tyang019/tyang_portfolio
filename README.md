@@ -17,6 +17,16 @@ This is my personal portfolio website built with **React** and **Chakra UI** to 
 - Clean, reusable component architecture  
 
 ## 📂 Project Structure
+src/
+├── components/
+│ ├── Header.js
+│ ├── LandingSection.js
+│ ├── ProjectsSection.js
+│ ├── ContactMeSection.js
+│ └── Footer.js
+├── App.js
+└── index.js
+
 
 
 # Getting Started with Create React App
