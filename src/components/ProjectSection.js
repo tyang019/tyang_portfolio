@@ -33,7 +33,7 @@ const projects = [
     title: "Mangata & Gallo Jewelry Shop",
     description:
       "An online store for Mangata & Gallo Jewelry, showcasing their unique jewelry collections and allowing customers to make purchases online.",
-    getImageSrc: () => require("../images/photo4.jpg"),
+    getImageSrc: () => require("../images/mangata.png"),
   }
 ];
 
