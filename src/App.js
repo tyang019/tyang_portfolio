@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+import Header from './components/Header';
+import LandingSection from './components/LandingSection';
 import './App.css';
+import { ChakraProvider, extendTheme} from "@chakra-ui/react";
+
+const theme = extendTheme({});
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <ChakraProvider theme={theme}>
+        <LandingSection />  
+      </ChakraProvider>
+          
+      <h1>
+        Welcome to my Portfolio Website
+      </h1>
     </div>
   );
 }
