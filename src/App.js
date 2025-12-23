@@ -12,10 +12,6 @@ function App() {
       <ChakraProvider theme={theme}>
         <LandingSection />  
       </ChakraProvider>
-          
-      <h1>
-        Welcome to my Portfolio Website
-      </h1>
     </div>
   );
 }

@@ -47,7 +47,7 @@ const Header = () => {
           ))}          
         </ul>
         <div className="center-link">
-          <p>Website Portfolio</p>
+          <p>Tortrong's Portfolio</p>
         </div>
         <div className="right-links">
             <a style={{ color: "black" }} href="#projects">Projects</a>

@@ -6,20 +6,20 @@ import Card from "./Card";
 //Array of Project Details
 const projects = [
   {
-    title: "Little Lemon Restauraunt Website",
+    title: "Little Lemon Restauraunt",
     description:
       "A website for the Little Lemon restaurant, showcasing their menu, location, and contact information.",
     getImageSrc: () => require("../images/littlelemon.png"),
     url: "https://tyang019.github.io/little_lemon_project/"
   },
   {
-    title: "React Infinite Scroll",
+    title: "Hairday Barbershop",
     description:
-      "A scrollable bottom sheet with virtualisation support, native animations at 60 FPS and fully implemented in JS land 🔥️",
+      "A barbershop to give you the best-looking haircuts in town and look good anywhere!",
     getImageSrc: () => require("../images/photo2.jpg"),
   },
   {
-    title: "Photo Gallery",
+    title: "Lucky Shrub",
     description:
       "A One-stop shop for photographers to share and monetize their photos, allowing them to have a second source of income",
     getImageSrc: () => require("../images/photo3.jpg"),
@@ -30,7 +30,7 @@ const projects = [
       "A mobile application for leisure seekers to discover unique events and activities in their city with a few taps",
     getImageSrc: () => require("../images/photo4.jpg"),
   },{
-    title: "Mangata & Gallo Jewelry Store",
+    title: "Mangata & Gallo Jewelry Shop",
     description:
       "An online store for Mangata & Gallo Jewelry, showcasing their unique jewelry collections and allowing customers to make purchases online.",
     getImageSrc: () => require("../images/photo4.jpg"),
